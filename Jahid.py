@@ -11,7 +11,7 @@ def o():
     os.system('clear')
     print(logo)
     print(" \033[38;5;46m××××××××××××××××××××××××××××××××××××××××××××××××")
-    jalan(" \033[38;5;196m[\033[38;5;195mA\033[38;5;196m]\033[38;5;195m START RANDOM CLONING \033[1;91m[\033[1;97mWORKING\033[1;91m]")
+    jalan(" \033[38;5;196m[\033[38;5;195mA\033[38;5;196m]\033[38;5;195m GCC GROUP  \033[1;91m[\033[1;97mWORKING\033[1;91m]")
     print(" \033[38;5;196m[\033[38;5;195mB\033[38;5;196m]\033[38;5;195m MY FB ACCOUNT")
     print(" \033[38;5;196m[\033[38;5;195mC\033[38;5;196m]\033[38;5;195m MY FB GROUP")
     print(" \033[38;5;196m[\033[38;5;195mD\033[38;5;196m]\033[38;5;195m MY GITHUB ACCOUNT")
@@ -19,7 +19,7 @@ def o():
     print(" \033[38;5;46m××××××××××××××××××××××××××××××××××××××××××××××××")
     HASAN = input(' \033[38;5;196m[\033[38;5;195m•\033[38;5;196m]\033[38;5;45m Choice Option \033[38;5;196m: ')
     if HASAN == 'A':
-        Hasan()
+        os.system('xdg-open https://www.facebook.com/rocking.shaown.10
     if HASAN == 'B':
         os.system('xdg-open https://www.facebook.com/profile.php?id=100090459211688')
         return None
